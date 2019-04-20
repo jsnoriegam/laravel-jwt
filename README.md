@@ -1,14 +1,11 @@
-# LaraJwt
+# Laravel-JWT
 Laravel JWT guard and authentication tools
-
-> This package is no longer maintained.
-> You can use the [laravel/passport](https://github.com/laravel/passport) package instead.
 
 ## Documentation
 
 ### Overview
 
-LaraJwt is a Laravel package for generating JWT (JSON Web-based Token) from users and providing JWT guard for Laravel 
+Laravel-JWT is a Laravel package for generating JWT (JSON Web-based Token) from users and providing JWT guard for Laravel 
 applications.
 
 ### Installation
@@ -16,7 +13,7 @@ applications.
 Add the package via Composer:
 
 ```
-composer require miladrahimi/larajwt:2.*
+composer require latinosoft/laravel-jwt:1.*
 ```
 
 Then run the following command to generate `jwt.php` (the package config) in your Laravel config directory:
