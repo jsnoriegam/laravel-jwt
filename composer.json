@@ -1,5 +1,5 @@
 {
-  "name": "miladrahimi/larajwt",
+  "name": "latinosoft/laravel-jwt",
   "description": "JWT authentication tools and guard for Laravel projects",
   "keywords": [
     "JWT",
@@ -9,7 +9,7 @@
     "API",
     "REST"
   ],
-  "homepage": "http://miladrahimi.github.io/larajwt",
+  "homepage": "https://github.com/jsnoriegam/laravel-jwt",
   "type": "library",
   "license": "MIT",
   "authors": [
@@ -18,16 +18,22 @@
       "email": "info@miladrahimi.com",
       "homepage": "http://miladrahimi.com",
       "role": "Developer"
+    },
+    {
+      "name": "Juan Noriega",
+      "email": "jsnoriegam@latinosoft.co",
+      "homepage": "http://latinosoft.co",
+      "role": "Developer"
     }
   ],
   "support": {
-    "email": "info@miladrahimi.com",
-    "source": "https://github.com/miladrahimi/larajwt/issues"
+    "email": "jsnoriegam@latinosoft.co",
+    "source": "https://github.com/jsnoriegam/laravel-jwt/issues"
   },
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.2",
     "lcobucci/jwt": "^3.2",
-    "laravel/framework": "^5.5"
+    "laravel/framework": "^5.8"
   },
   "autoload": {
     "psr-4": {
